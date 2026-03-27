@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: orange;
+    color: white;
+    text-decoration: none;
+}
+.form-section {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-box {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: orange;
+    color: white;
+    border: none;
+}
+.services {
+    text-align: center;
+    padding: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+.cta {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
